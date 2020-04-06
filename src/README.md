@@ -1,7 +1,7 @@
 This module accepts a csv file and writes some key statistics to an output file.
 It can be run as follows:
 
-```python consumer_complaints.py input_file output_file [number_of_workers]```
+```python consumer_complaints.py input_file output_file [-n number_of_workers]```
 
 *input_file*: Is a csv file that contains the input data. The file should contain 'product', 'date' and 'company' columns as given 
 in [this](https://cfpb.github.io/api/ccdb/fields.html) format
